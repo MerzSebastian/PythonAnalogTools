@@ -1,3 +1,4 @@
+
 def clean(data, threshold = None):
     threshold = statistics.median([min(data[1]), max(data[1])]) if threshold == None else threshold
     clean_data = [[],[]]
